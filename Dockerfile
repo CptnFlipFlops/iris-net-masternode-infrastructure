@@ -1,4 +1,4 @@
-FROM  irisnet/irishub:v1.0.1
+FROM  irisnet/irishub:v1.1.1
 
 RUN mkdir /app/ app/iris
 
