@@ -15,7 +15,7 @@
 proxy_app = "tcp://127.0.0.1:26658"
 
 # A custom human readable name for this node
-moniker = "CHANGE THIS TO YOUR MONIKER"
+moniker = "replace"
 
 # If this node is many blocks behind the tip of the chain, FastSync
 # allows them to catchup quickly by downloading blocks in parallel
@@ -197,7 +197,7 @@ addr_book_file = "config/addrbook.json"
 addr_book_strict = true
 
 # Maximum number of inbound peers
-max_num_inbound_peers = 40
+max_num_inbound_peers = 80
 
 # Maximum number of outbound peers to connect to, excluding persistent peers
 max_num_outbound_peers = 10
@@ -212,13 +212,13 @@ persistent_peers_max_dial_period = "0s"
 flush_throttle_timeout = "100ms"
 
 # Maximum size of a message packet payload, in bytes
-max_packet_msg_payload_size = 1024
+max_packet_msg_payload_size = 8192
 
 # Rate at which packets can be sent, in bytes/second
-send_rate = 5120000
+send_rate = 51200000
 
 # Rate at which packets can be received, in bytes/second
-recv_rate = 5120000
+recv_rate = 51200000
 
 # Set true to enable the peer-exchange reactor
 pex = true
