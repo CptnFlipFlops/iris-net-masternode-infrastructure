@@ -36,8 +36,9 @@ docker run --name irus_hub -v <path_to_mount_on_vps>:/app/iris/ irus_hub
 ``
 
     E.g
-``
 #Using the Digital Ocean Droplet mounted volumes, do note the sync with the mainet takes long. 200GB+ 
+
+``
 docker run -d --name irus_hub_v1.1.1 -v /mnt/volume_lon1_01/iris/data:/app/iris/ irus_hub:v1.1.1
 ``
 
