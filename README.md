@@ -1,4 +1,7 @@
 # iris-net-masternode-infrastructure
+https://www.irisnet.org/
+
+Some configs where tweaked to speed up the sync
 
 Commands :
 
